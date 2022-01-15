@@ -1,5 +1,5 @@
-FROM alpine
-MAINTAINER David Personette <dperson@gmail.com>
+FROM alpine:3.15.0
+MAINTAINER David Nutting <nutting.david@gmail.com>
 
 # Install samba
 RUN apk --no-cache --no-progress upgrade && \
